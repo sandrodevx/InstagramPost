@@ -1,5 +1,7 @@
 # Project: Instagram Clone with Image Carousel
 
+[View Live Page](https://sandrodevx.github.io/InstagramPost/)
+
 This project is a basic replica of an Instagram post, featuring functionalities like an image carousel, interaction buttons (like, comment, share), and a responsive design. It is built using **HTML**, **CSS**, and **JavaScript**.
 
 ---

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slide de Fotos</title>
     <!-- Google Fonts -->
     <link
@@ -15,50 +15,52 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+<body>
     <div class="post-container">
-      <!-- Header del post -->
-      <div class="post-header">
-        <div class="user-info">
-          <img
-            src="https://picsum.photos/50"
-            class="profile-pic"
-            alt="Foto de perfil"
-          />
-          <h2>Sandro Gomez</h2>
+        <!-- Header del post -->
+        <div class="post-header">
+            <div class="user-info">
+              <img
+                src="/img/html-logo-png-favpng-xw7LS6AupC3yqakqAhCEpSeVA.jpg"
+                class="profile-pic"
+                alt="HTML Icon"
+              />
+              <div class="user-names">
+                <span class="html5">HTML5</span>
+                <span class="rigoberto">Rigoberto</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+  
+        <!-- Carrusel de imágenes -->
+        <div class="carousel">
+          <div class="slides">
+            <img src="https://picsum.photos/600/600?random=1" alt="Imagen 1" />
+            <img src="https://picsum.photos/600/600?random=2" alt="Imagen 2" />
+            <img src="https://picsum.photos/600/600?random=3" alt="Imagen 3" />
+          </div>
+          <!-- Botones de navegación -->
+          <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+          <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
         </div>
-        <i class="fas fa-ellipsis-h"></i>
-      </div>
-
-      <!-- Carrusel de imágenes -->
-      <div class="carousel">
-        <div class="slides">
-          <img src="https://picsum.photos/600/600?random=1" alt="Imagen 1" />
-          <img src="https://picsum.photos/600/600?random=2" alt="Imagen 2" />
-          <img src="https://picsum.photos/600/600?random=3" alt="Imagen 3" />
+  
+        <!-- Acciones -->
+        <div class="post-actions">
+          <div class="left-actions">
+            <i class="far fa-heart"></i>
+            <i class="far fa-comment"></i>
+            <i class="far fa-paper-plane"></i>
+          </div>
+          <i class="far fa-bookmark"></i>
         </div>
-        <!-- Botones de navegación -->
-        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
-      </div>
-
-      <!-- Acciones -->
-      <div class="post-actions">
-        <div class="left-actions">
-          <i class="far fa-heart"></i>
-          <i class="far fa-comment"></i>
-          <i class="far fa-paper-plane"></i>
+  
+        <!-- Likes -->
+        <div class="post-likes">
+          <p>Le gusta a <strong>4GeeksAcademy y otras personas </strong></p>
         </div>
-        <i class="far fa-bookmark"></i>
-      </div>
-
-      <!-- Likes -->
-      <div class="post-likes">
-        <p>Le gusta a <strong>4GeeksAcademy y otras personas </strong></p>
-      </div>
-
-      <!-- Descripción -->
+        <!-- Descripción -->
       <div class="post-caption">
         <p>
           <strong>Sandro Gomez</strong> Esta es una descripción de ejemplo para
@@ -74,5 +76,6 @@
     </div>
 
     <script src="script.js"></script>
-  </body>
+    
+</body>
 </html>

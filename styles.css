@@ -1,112 +1,149 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 20px;
-}
-
-.post-container {
-  background-color: white;
-  border: 1px solid #dbdbdb;
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 3px;
-}
-
-.post-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px;
-  border-bottom: 1px solid #efefef;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.profile-pic {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.carousel {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slides img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.prev-btn,
-.next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 18px;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
-.post-actions {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 14px;
-  border-bottom: 1px solid #efefef;
-}
-
-.left-actions {
-  display: flex;
-  gap: 15px;
-}
-
-.far {
-  font-size: 24px;
-  cursor: pointer;
-  color: #262626;
-}
-
-.post-likes,
-.post-caption,
-.post-comments {
-  padding: 8px 14px;
-  font-size: 14px;
-}
-
-.post-comments p {
-  margin: 5px 0;
-}
-
-strong {
-  font-weight: 600;
-}
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .post-container {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+  }
+  
+  /* Encabezado del post */
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-names {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .html5 {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .rigoberto {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .post-header .fa-ellipsis-h {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Carrusel de imágenes */
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Botones de navegación del carrusel */
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  /* Acciones del post (like, comentar, compartir, guardar) */
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 14px;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .left-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .far {
+    font-size: 24px;
+    cursor: pointer;
+    color: #262626;
+  }
+  
+  /* Likes */
+  .post-likes {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  
+  /* Descripción del post */
+  .post-caption {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  
+  /* Comentarios */
+  .post-comments {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  
+  .post-comments p {
+    margin: 5px 0;
+  }
+  
+  /* Texto en negrita */
+  strong {
+    font-weight: 600;
+  }
